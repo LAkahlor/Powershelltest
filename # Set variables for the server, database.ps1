@@ -1,9 +1,9 @@
 # Set variables for the server, database, and trusted connection
-$serverName = "DESKTOP-N0Q3GJV\MSMYSQL"
+$serverName = "todo"
 $databaseName = "testdb"
 $trustedConnection = $true
 
-# Construct the connection string
+# Construct the connection string (Testing Windows Authentication string)
 $connectionString = "Server=$serverName;Database=$databaseName;Trusted_Connection=$trustedConnection;"
 
 # Create a new SQL connection object
